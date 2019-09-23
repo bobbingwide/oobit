@@ -1,0 +1,82 @@
+/* (C) Copyright Bobbing Wide 2012, 2013  */
+/* Custom css for the oobit theme */
+body.effort_page_bw_effort_add_lots { background-color: #bbb; }
+
+
+div.wrongway { min-height: 200px; width: 50%; background-color: red; margin-bottom: 10px; content: "wrong way"; font-size: 300%; color: white; }
+
+a.contactcontact { background-color: yellow; padding: 1em; margin-bottom: 1em;  display:block; }
+
+article.post-302 { background-color: #ead7b6; max-width: 772px; }
+
+
+/* styling to display sample responsive divs */
+
+div.bp div.w10pc { background-color: #101010; min-height: 50px; }
+div.bp div.w16pc { background-color: #161616; min-height: 50px; }
+div.bp div.w20pc { background-color: #202020; min-height: 50px; }
+div.bp div.w25pc { background-color: #252525; min-height: 50px; }
+div.bp div.w30pc { background-color: #303030; min-height: 50px; }
+div.bp div.w33pc { background-color: #333333; min-height: 50px; }
+div.bp div.w40pc { background-color: #404040; min-height: 50px; }
+div.bp div.w50pc { background-color: #505050; min-height: 50px; }
+div.bp div.w60pc { background-color: #606060; min-height: 50px; }
+div.bp div.w66pc { background-color: #666666; min-height: 50px; }
+div.bp div.w70pc { background-color: #707070; min-height: 50px; }
+div.bp div.w75pc { background-color: #757575; min-height: 50px; }
+div.bp div.w80pc { background-color: #808080; min-height: 50px; }
+div.bp div.w83pc { background-color: #838383; min-height: 50px; }
+div.bp div.w90pc { background-color: #909090; min-height: 50px; }
+div.bp div.w100pc { background-color: #A0A0A0; min-height: 50px; }
+
+
+
+@media screen and (max-width: 800px) {
+
+.w10pc,.w16pc,.w20pc,.w25pc,.w30pc,.w33pc,.w40pc,.w50pc,.w60pc,.w66pc,.w70pc,.w75pc,.w80pc,.w83pc,.w90pc { width: 50%; }
+
+div.bp div.w10pc,
+div.bp div.w10pc,
+div.bp div.w16pc,
+div.bp div.w20pc,
+div.bp div.w25pc,
+div.bp div.w30pc,
+div.bp div.w33pc,
+div.bp div.w40pc,
+div.bp div.w50pc,
+div.bp div.w60pc,
+div.bp div.w66pc,
+div.bp div.w70pc,
+div.bp div.w75pc,
+div.bp div.w80pc,
+div.bp div.w83pc,
+div.bp div.w90pc { width: 50%; }
+}/*/mediaquery*/
+
+
+/* iPhone portrait */
+@media screen and ( max-width: 320px ) {
+.w10pc,.w16pc,.w20pc,.w25pc,.w30pc,.w33pc,.w40pc,.w50pc,.w60pc,.w66pc,.w70pc,.w75pc,.w80pc,.w83pc,.w90pc { width: 100%; }
+div.bp div.w10pc,
+div.bp div.w10pc,
+div.bp div.w16pc,
+div.bp div.w20pc,
+div.bp div.w25pc,
+div.bp div.w30pc,
+div.bp div.w33pc,
+div.bp div.w40pc,
+div.bp div.w50pc,
+div.bp div.w60pc,
+div.bp div.w66pc,
+div.bp div.w70pc,
+div.bp div.w75pc,
+div.bp div.w80pc,
+div.bp div.w83pc,
+div.bp div.w90pc { width: 100%; float: none; }
+
+
+  .w33pc { width: 100%; float: none; }
+
+  
+
+}/*/mediaquery*/
