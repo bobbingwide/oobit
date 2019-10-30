@@ -1,17 +1,16 @@
 /*
 Theme Name: oobit
 Template: twentyeleven
-Theme URI: http://www.bobbingwide.com
-Description: (C) Copyright Bobbing Wide 2012, 2013
-Version: 1.1
+Theme URI: https://www.bobbingwide.com
+Description: (C) Copyright Bobbing Wide 2012, 2013, 2019
+Version: 2.0.0
 Author: Bobbing Wide
-Author URI: http://www.bobbingwide.com
+Author URI: https://www.bobbingwide.com/about-bobbing-wide
 Tags: fixed width, left sidebar, two columns, valid XHTML, widgets
 */
-@import url('../twentyeleven/style.css');
 
 .singular .hentry { padding-top: 0px }
-.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {   margin: 0 auto;  width: 88.9%;  }
+.singular .entry-header, .singular .entry-content, .singular footer.entry-meta, .singular #comments-title {   margin: 0 auto;  width: 90%;  }
 .oik_presentation { font-size: 150% }
 .oik_presentation .entry-title { padding-top: 0px; padding-bottom: .1em; }
 .oik_presentation .entry-content { padding: 0px; }
@@ -39,6 +38,30 @@ div.aligncenter img { clear: both; display: block; margin-left: auto; margin-rig
 html .mceContentBody {max-width: 100%; } 
 span._oikp_notes span._oikp_notes { display: none; }
 div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-color: #ffffff; }
+
+.oik_presentation pre.wp-block-verse {
+    font-size: 150%;
+    margin-left: -5%;
+    margin-right: -5%;
+}
+
+
+@media ( max-width: 800px ) {
+    .oik_presentation pre.wp-block-verse {
+        font-size: 100%;
+    }
+}
+
+@media ( max-width: 360px) {
+    .oik_presentation pre.wp-block-verse {
+        font-size: 4.4vw;
+        padding: 0.75em 0.6em;
+        white-space: pre-wrap;
+    }
+}
+
+
+/* The first thing that you have to do */
 
 
 
