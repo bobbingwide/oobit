@@ -29,6 +29,22 @@ div.bp div.w83pc { background-color: #838383; min-height: 50px; }
 div.bp div.w90pc { background-color: #909090; min-height: 50px; }
 div.bp div.w100pc { background-color: #A0A0A0; min-height: 50px; }
 
+.singular .entry-meta .edit-link a {
+  bottom: auto;
+  left: 50px;
+  position: absolute;
+  right: auto;
+  top: 40px;
+}
+
+span.dashicons.bw_follow_me { display: none; }
+span.bw_copyright span.suffix { display: block;}
+div.textwidget ul {  list-style: none; margin-left: 0px;}
+
+#secondary {
+  margin-right: 0.6%;
+  width: 25.8%;
+}
 
 
 @media screen and (max-width: 800px) {
