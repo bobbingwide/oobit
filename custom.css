@@ -46,8 +46,14 @@ div.textwidget ul {  list-style: none; margin-left: 0px;}
   width: 25.8%;
 }
 
+ul.bw_list { columns: 2; list-style: none; line-height: 1.4;}
+
 
 @media screen and (max-width: 800px) {
+  ul.bw_list {
+    columns: 1;
+    margin-left: 0px;
+  }
 
 .w10pc,.w16pc,.w20pc,.w25pc,.w30pc,.w33pc,.w40pc,.w50pc,.w60pc,.w66pc,.w70pc,.w75pc,.w80pc,.w83pc,.w90pc { width: 50%; }
 
