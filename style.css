@@ -24,7 +24,7 @@ Tags: fixed width, left sidebar, two columns, valid XHTML, widgets
 .oik_presentation div.adr div.type { display: block; padding-top: 1em; }
 .oik_presentation div.postal-code { display: inline; padding-right: 1.5em;}
 .oik_presentation div.adr { padding-bottom: 2em; }
-div#oik_slide nav#navsingle a { padding: 0px 3px 0px 2px;  } 
+div#oik_slide nav#navsingle a { padding: 0px 12px 0px 12px;  }
 div#oik_slide nav#navsingle {  text-align: right; }
 article.oik_presentation { min-height: 540px; }
 .oik_presentation h3 { font-size: 1.2em; letter-spacing: 0;}
@@ -40,7 +40,7 @@ span._oikp_notes span._oikp_notes { display: none; }
 div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-color: #ffffff; }
 
 .oik_presentation pre.wp-block-verse {
-    font-size: 150%;
+    font-size: 175%;
     margin-left: -5%;
     margin-right: -5%;
 }
@@ -48,9 +48,23 @@ div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-col
 
 @media ( max-width: 800px ) {
     .oik_presentation pre.wp-block-verse {
-        font-size: 100%;
+        font-size: 4.0vw;
     }
 }
+
+/**
+* How do we find a reasonable value for vw for a string of 36 letters?
+ The first thing that you have to do
+
+From Adam Maltpress
+So... Windows 7 Courier New has a height/width ratio of 2048:1229,
+or as near to 60% as makes no difference.
+You have 36 letters in 320px so 320/36 = 8.9px for each character.
+Multiply by 2048, divide by 1229 ( 1.66 ) = 14.77
+14.77 / 320 = 4.6vw
+
+See vw.php for more information
+ */
 
 @media ( max-width: 360px) {
     .oik_presentation pre.wp-block-verse {
@@ -61,7 +75,6 @@ div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-col
 }
 
 
-/* The first thing that you have to do */
 
 
 
