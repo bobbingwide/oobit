@@ -13,7 +13,17 @@
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">
-          <?php do_action( "oik_presentation_footer" ); ?>
+        <?php do_action( "oik_presentation_footer" ); ?>
+		<?php
+		/*
+		 * A sidebar in the footer? Yep. You can customize
+		 * your footer with three columns of widgets.
+		 */
+		if ( ! is_404() ) {
+			get_sidebar( 'footer' );
+		}
+		?>
+
 	</footer><!-- #colophon -->
 </div><!-- #page -->
 
