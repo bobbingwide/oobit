@@ -5,6 +5,7 @@
  */
 function oobit_functions_loaded() {
   add_theme_support( 'woocommerce' );
+  add_theme_support( 'title-tag' );
   add_action( "oik_admin_menu", "oobit_admin_menu" );
   add_action( 'wp_enqueue_scripts', 'oobit_enqueue_styles' );
 }
