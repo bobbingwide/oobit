@@ -1,5 +1,5 @@
-#oobit v2.0.0 theme readme.txt
-![screenshot](https://raw.githubusercontent.com/bobbingwide/oobit v2.0.0 theme readme.txt/master/screenshot.png)
+#oobit v2.0.1 theme readme.txt
+![screenshot](https://raw.githubusercontent.com/bobbingwide/oobit v2.0.1 theme readme.txt/master/screenshot.png)
 
 see style.css for the information required by WordPress.org
 
@@ -7,6 +7,10 @@ v2.0.0 contains updates for the Problem Solving website. https://bobbingwide.com
 
 
 ## Changelog 
+# 2.0.1 
+* Changed: Update custom.css for the Top 10 WordPress plugins site
+* Tested: With WordPress 5.3 and WordPress Multi Site
+
 # 2.0.0 
 * Changed: Reimplement 3 footer widgets,https://github.com/bobbingwide/oobit/issues/3
 * Added: Author box on pages,https://github.com/bobbingwide/oobit/issues/4
