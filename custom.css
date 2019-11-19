@@ -46,7 +46,15 @@ div.textwidget ul {  list-style: none; margin-left: 0px;}
   width: 25.8%;
 }
 
-ul.bw_list { columns: 2; list-style: none; line-height: 1.4;}
+article ul.bw_list { columns: 2; list-style: none; line-height: 1.4;}
+
+table.bw_plug { }
+.bw_plug td:nth-of-type( 1 ) { width: 50%; }
+.bw_plug td:nth-of-type( 2 ) { width: 30%; text-align: center; vertical-align: middle; }
+.bw_plug td:nth-of-type( 3 ) { width: 20%; text-align: right; vertical-align: middle;}
+
+
+table.bw_plug td.vtdlut { font-size: 70%; }
 
 
 @media screen and (max-width: 800px) {
