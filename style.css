@@ -33,8 +33,9 @@ div.col3 { -moz-column-count:3; /* Firefox */ -webkit-column-count:3; /* Safari 
 div.col2 { -moz-column-count:2; /* Firefox */ -webkit-column-count:2; /* Safari and Chrome */column-count: 2; } 
 span.email { word-wrap: break-word; }
 div.aligncenter img { clear: both; display: block; margin-left: auto; margin-right: auto; }
-.oik_presentation code  { font-size: 1em; } 
-.oik_presentation blockquote { font-size: 2em; }
+.oik_presentation code  { font-size: 1em; }
+.oik_presentation .wp-block-quote p { font-size: 30px; }
+.oik_presentation .wp-block-quote.is-style-large p { font-size: 50px; }
 html .mceContentBody {max-width: 100%; } 
 span._oikp_notes span._oikp_notes { display: none; }
 div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-color: #ffffff; }
@@ -44,6 +45,8 @@ div._oikp_notes { border: 1px dotted; display:block; padding: 1%; background-col
     margin-left: -5%;
     margin-right: -5%;
 }
+
+
 
 
 @media ( max-width: 800px ) {

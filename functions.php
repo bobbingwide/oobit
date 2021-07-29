@@ -36,10 +36,15 @@ function oobit_remove_menus() {
 function oobit_enqueue_styles() {
 	$parent_style = 'twenty-eleven-style';
 	wp_enqueue_style( $parent_style, get_template_directory_uri() . '/style.css' );
+	if ( defined( 'SCRIPT_DEBUG') && SCRIPT_DEBUG ) {
+		$version = time();
+	} else {
+		$version = wp_get_theme()->get('Version');
+	}
 	wp_enqueue_style( 'oobit-style',
 		get_stylesheet_directory_uri() . '/style.css',
 		array( $parent_style ),
-		wp_get_theme()->get('Version')
+		$version
 	);
 }
 

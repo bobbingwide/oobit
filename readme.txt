@@ -1,4 +1,4 @@
-oobit v2.0.1 theme readme.txt
+oobit v2.0.2 theme readme.txt
 
 see style.css for the information required by WordPress.org
 
@@ -6,6 +6,14 @@ v2.0.0 contains updates for the Problem Solving website. https://bobbingwide.com
 
 
 == Changelog == 
+= 2.0.2 =
+* Changed: Improve styling for Problem-Solving,[github bobbingwide oobit issues 12] 
+* Changed: Improve styling for Top 10 WordPress plugins site,[github bobbingwide oobit issues 11]
+* Added: Archive for Question CPT,[github bobbingwide oobit issues 9]
+* Added: Archive for Problem CPT,[github bobbingwide oobit issues 10]
+* Fixes: Website title appearing twice,[github bobbingwide oobit issues 8]
+* Tested: With WordPress 5.3.2 and WordPress Multi Site
+
 = 2.0.1 = 
 * Changed: Update custom.css for the Top 10 WordPress plugins site
 * Tested: With WordPress 5.3 and WordPress Multi Site
